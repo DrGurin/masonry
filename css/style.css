@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    background: white;
+}
+
+.wrapper {
+    width: 100%;
+    height: fit-content;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper_item {
+    width: 33.333%;
+    display: block;
+    /* height: auto; */
+    float: left;
+}
+
+.grid-sizer {
+    width: 100%;
+}
